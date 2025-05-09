@@ -27,6 +27,14 @@
       padding: 2rem 1rem;
       text-align: center;
     }
+    .profile-pic {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid var(--accent-color);
+      margin-bottom: 1rem;
+    }
     header h1 {
       font-size: 2.5rem;
     }
@@ -75,12 +83,14 @@
 </head>
 <body>
   <header>
-    <h1>Your Name</h1>
-    <p>Web Developer | Designer | Creator</p>
+    <img src="resources/self_portrait.jpg" alt="Profile Picture" class="profile-pic" />
+    <h1>Vincent Bonamassa</h1>
+    <p>Java Developer | Designer | Creator</p>
   </header>
 
   <nav>
     <a href="#about">About</a>
+    <a href="#what">What Can I Do</a>
     <a href="#projects">Projects</a>
     <a href="#contact">Contact</a>
   </nav>
@@ -88,8 +98,19 @@
   <section id="about">
     <h2>About Me</h2>
     <p>
-      I'm a passionate web developer with a focus on building clean and user-friendly
-      experiences. I love turning ideas into reality using code.
+      I am studying for the process of obtaining my Bachelors in Computer Science!
+      I focus heavily on making my projects as presentable and clean as possible.
+    </p>
+  </section>
+
+  <section id="what">
+    <h2>What Can I Do?</h2>
+    <p>
+      • Java development (frontend, backend)
+
+      • Mobile app development (Android with Kotlin)
+
+      • UI/UX design
     </p>
   </section>
 
@@ -97,26 +118,26 @@
     <h2>Projects</h2>
     <div class="projects">
       <div class="project">
-        <h3>Project One</h3>
-        <p>Brief description of your project and technologies used.</p>
-        <a href="#">View on GitHub</a>
+        <h3>JavaFX Network Simulator</h3>
+        <p>A desktop application that lets users build and simulate computer networks with a drag-and-drop interface. Contributed as a UI/UX designer.</p>
+        <a href="https://github.com/Nadir-Kutluozen/Network_Simulator">View on GitHub</a>
       </div>
       <div class="project">
-        <h3>Project Two</h3>
-        <p>Another brief description of a project.</p>
-        <a href="#">View on GitHub</a>
+        <h3>Final Project 211</h3>
+        <p>You click on any of the buttons from Teams 1-10, and it gives you information about the baseball team you selected.</p>
+        <a href="https://github.com/VBonamassa3/FinalProject211">View on GitHub</a>
       </div>
     </div>
   </section>
 
   <section id="contact">
     <h2>Contact</h2>
-    <p>Email: vbonamassa@proton.me</p>
-    <p>LinkedIn: <a href="#">YourLinkedIn</a></p>
+    <p>Email: vbonamassa@gmail.com</p>
+    <p>LinkedIn: <a href="https://farmingdale-csm.symplicity.com/profiles/vincent.bonamassa">YourLinkedIn</a></p>
   </section>
 
   <footer>
-    <p>&copy; 2025 Your Name. All rights reserved.</p>
+    <p>&copy; 2025 Vincent Bonamassa. All rights reserved.</p>
   </footer>
 </body>
 </html>
